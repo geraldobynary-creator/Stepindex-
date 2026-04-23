@@ -15,9 +15,9 @@ def run_web():
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
 
 # --- CONFIG ---
-TOKEN_TG = "TON_TOKEN_TELEGRAM"
-ID_CHAT = "TON_CHAT_ID"
-TOKEN_DERIV = "TON_TOKEN_DERIV"
+TOKEN_TG = "8796066471:AAEb97AFAnubWlnb7ATwX87wrnOIYztzdXA"
+ID_CHAT = "7893239258"
+TOKEN_DERIV = "IWDrM4XskBkVkRx"
 
 bot = telebot.TeleBot(TOKEN_TG)
 current_tf = "5m"
